@@ -1,0 +1,5 @@
+nome = input('Como você se chama? ')
+sal = float(input(f'{nome}, quanto recebe atualmente? R$'))
+novo = sal + (sal*0.15)
+print(f'Parabéns! {nome}, você acaba de ser promovido!')
+print(f'Receberá 15% de aumento, seu novo salário será R${novo:.2f}')
